@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laurencio Berro — moved to lalocress.com</title>
+    <link rel="canonical" href="https://lalocress.com/">
+    <meta name="robots" content="noindex">
+    <script>
+        // Keep the rest of the old link: /Portfolio/<path>?query#section → lalocress.com/<path>?query#section
+        var path = location.pathname.replace(/^\/Portfolio\/?/i, "/");
+        location.replace("https://lalocress.com" + path + location.search + location.hash);
+    </script>
+    <!-- Fallback when scripts are off -->
+    <meta http-equiv="refresh" content="1; url=https://lalocress.com/">
+    <style>
+        body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0a0a0a; color: #f3eedb; font: 16px/1.5 monospace; }
+        a { color: #d9a6f2; }
+    </style>
+</head>
+<body>
+    <p>This site moved to <a href="https://lalocress.com/">lalocress.com</a>.</p>
+</body>
+</html>
